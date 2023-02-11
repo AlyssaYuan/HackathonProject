@@ -1,0 +1,51 @@
+
+header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    color:black;
+    padding: 30px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter',sans-serif;
+}
+.cards {
+    font-family: 'Inter',sans-serif;    
+    display: grid;
+
+}
+.logo {
+    height:100%;
+}
+.hey {
+    color: blue;
+}
+.food-title {
+    margin-right: auto;
+    font-size:60px;
+}
+button {
+    background-color: #e62121; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.zipcode-input {
+    padding: 13px 12px;
+    font-size: 16px;
+    color: pink;
+    height: auto;
+}
+.img-cover {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+}
+.rating-star {
+    width: 16px;
+}
+
