@@ -10,7 +10,7 @@ export default function Navbar() {
                 placeholder="Zipcode"
                 type="text"
             ></input>
-            <button classname="zipcode-button">Food</button>
+            <button classname="zipcode-button">Search</button>
         </header>
     )
 }

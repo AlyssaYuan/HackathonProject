@@ -8,17 +8,23 @@ header {
     box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
     font-family: 'Inter',sans-serif;
 }
-.cards {
-    font-family: 'Inter',sans-serif;    
-    display: grid;
-
+.card {
+    font-family: 'Inter',sans-serif; 
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25); 
+    border-radius: 10px; 
+    width: 205px;
+    font-size: 12px;
+    display: flex;          
+    flex-direction: column;
+    background-color: #f1f1f1;
+    padding:20px;
+    margin: 15px;
 }
+  
 .logo {
     height:100%;
 }
-.hey {
-    color: blue;
-}
+
 .food-title {
     margin-right: auto;
     font-size:60px;
@@ -41,11 +47,24 @@ button {
     height: auto;
 }
 .img-cover {
-    width: 176px;
-    height: 235px;
+    width: 200px;
+    height: 300px;
     border-radius: 9px;
+    margin-bottom: 9px;
+    object-fit: cover;
 }
 .rating-star {
-    width: 16px;
+    width: 14px;
 }
-
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+.card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    justify-content: space-between;
+    margin: 50px;
+}
